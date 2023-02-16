@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { NavLink } from "react-router-dom";
 import { styled } from "@mui/material";
-import { borderRadius } from "@mui/system";
+
 
 const StyleNavLink = styled(NavLink)({
   textDecoration: "none",
@@ -32,6 +32,7 @@ export default function Navbar() {
             <StyleNavLink to={"/"}>Home</StyleNavLink>
             <StyleNavLink to={"about"}>About</StyleNavLink>
             <StyleNavLink to={"contact"}>Contact</StyleNavLink>
+            <StyleNavLink to={"careers"}>Careers</StyleNavLink>
           </Box>
         </Toolbar>
       </Container>
